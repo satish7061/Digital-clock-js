@@ -1,0 +1,470 @@
+@media (min-width:721px){
+    .main{
+        display: flex;
+        justify-content: center;
+        background-color:#3D087B ;
+        
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: end;
+        width: 50vw;
+        box-sizing: border-box;
+        padding-left: 13vw;
+        line-height: 1vw;
+        
+    }
+    .a1{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    #time{
+        display: flex;
+    }
+    
+    #clock{
+        margin: 1vw;
+        overflow: hidden;
+    }
+    #routine{
+        font-family: 'Manrope', sans-serif;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: space-evenly;
+        height: 50vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding: 1vw;
+        width: 35vw;
+        margin: 1vw;
+        border-radius: 1vw;
+        line-height: 1.1vw;
+        color: #3D087B;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .selText{
+        font-family: 'Manrope', sans-serif;
+        color: #3D087BDE;
+    }
+    option {
+        color: black;
+    }
+    select{
+        color:black;
+    }
+    .stick{
+        position: relative;
+        left: .8vw;
+        height: 3vw;
+        font-size: 3vw;
+        color: #C2C2C2;
+    }
+    .a1{
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: -.6vw;
+    }
+    .sel{
+        width: 15vw;
+        height: 2vw;
+        position: relative;
+        
+        border: #EDEDED 1px solid;
+    
+    }
+    #gm{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #56189cde;
+        box-sizing: border-box;
+        padding-left: 1vw;
+        border-radius: .8vw;
+        width: 35vw;
+        margin: 1vw;
+        margin-bottom: .5vw;
+        text-transform: capitalize;
+    }
+    #text{
+        opacity: 100%;
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+        /* line-height: 2vw; */
+    }
+    #time{
+        margin: 1vw;
+    
+    }
+    #bottomA{
+        display: flex;
+        align-items: center;
+  
+    }
+    .button{
+        position: relative;
+        bottom: 2vw;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px white;
+        margin-right: 1vw;
+        color: white;
+        justify-content: center;
+        box-sizing: border-box;
+        font-size: 2.5vw;
+        width: 18vw;
+        height: 3vw;
+        font-family: 'Manrope', sans-serif;
+        background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+       
+    }
+    .button:hover{
+        background-image: linear-gradient(-113deg, #FC5EFF,#6E54EC,#F1A7C5);
+    }
+    .button:hover{
+        border-radius: 5px;
+        font-size: 2.5vw;
+        padding: 0vw;
+        margin-right: 1vw;
+        cursor: pointer;
+    }
+    #bottomB{
+        background-color: #56189cde;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 1vw;
+        color: #f570ff;
+        text-shadow: #3D087B 2px 2px 2px;
+        opacity: 1;
+        width: 15vw;
+        position: relative;
+        bottom: 1vw;
+        margin: 0px;
+        overflow: hidden;
+        font-size: .9vw;
+        line-height: 1.5vw;
+    }
+    .right{
+        width: 50vw;
+        margin-left: 1vw;
+        padding-left: 1vw;
+        box-sizing: border-box;
+    }
+    #b1{
+        box-sizing: border-box;
+        padding: 2vw;
+        width: 35vw;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 2vw;
+        z-index: 3;
+        border-radius: 1vw;
+        font-family: 'Manrope', sans-serif;
+    }
+    #b2{
+        width: 30vw;
+        height: 3vw;
+        background-color: white;
+        opacity: 60%;
+        position: relative;
+        left: 2.5vw;
+        z-index: 2;
+        border-radius: .7vw;
+    }
+    #b3{
+        width: 25vw;
+        height: 2vw;
+        background-color: white;
+        opacity: 35%;
+        position: relative;
+        left: 5vw;
+        bottom: 1.2vw;
+        z-index: 1;
+        border-radius: .5vw;
+    }
+    #t{
+        color: #3D087B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vw;
+        width: 5vw;
+        box-sizing: border-box;
+    }
+    .bigT{
+        font-size: 3vw;
+        
+    }
+    .pT{
+        color: #3D087B;
+        font-family: 'Manrope', sans-serif;
+        font-weight: lighter;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        height: 5vw;
+        width: 5vw;
+        background-image: url(./images/timeline.png);
+        align-items: center;
+        justify-content: center;
+        margin-left: .5vw;
+        margin-right: .5vw;
+    }
+    .pTd{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #meridian{
+        box-sizing: border-box;
+        display: flex;
+        font-size: 3vw;
+        height: 5vw;
+        width: 5vw;
+        margin-left: 1vw;
+        background-image: url(./images/AM_svg.png);
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    #grab{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-size: 1.6vw;
+        box-sizing: border-box;
+        width: 35vw;
+        height: 8vw;
+        background-color: white;
+        padding: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 1vw;
+        z-index: 3;
+        border-radius: 1vw;
+        margin-bottom: 4vw;
+        color: #8E53F0;
+        text-transform: capitalize;
+    }
+    #img{
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    #imgM{  
+        width: 32vw;
+        position: relative;
+        top: -12px;
+    }
+}
+@media (max-width:720px){
+    .main{
+        background-color:#3D087B;
+    }
+    #clock{
+        width: 55vw;
+    }
+    .fHalf{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #routine{
+        border-radius: 2vw;
+        box-sizing: border-box;
+        background-color: white;
+        margin: 3vw 3vw 3vw 3vw;
+        width: 90vw;
+        font-family: Manrope, Regular;
+        color: #3D087B;
+        padding: 2vw;
+    }
+    .a1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .stick{
+        padding-left:3vw ;
+        height: 3vw;
+    }
+    .sel{
+        position: relative;
+        top: 3vw;
+        width: 40vw;
+        height: 6vw;
+        border: #EDEDED 1px solid;
+    }
+    #gm{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 5vw;
+        background-color: #974bb8;
+        box-sizing: border-box;
+        padding-left: 1vw;
+        border-radius: 1vw;
+        color: white;
+        width: 90vw;
+        margin: 3vw 3vw 3vw 3vw;
+        display: flex;
+        justify-content: center;
+
+    }
+    #bottomA{
+        display: flex;
+        align-items: center;
+        margin: 3vw 3vw 3vw 3vw;
+        color: white;
+        justify-content: center;
+        width: 90vw;
+        box-sizing: border-box;
+        background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    }
+    .button{
+        display: flex;
+        border: none;
+        margin-right: 1vw;
+        color: white;
+        justify-content: center;
+        box-sizing: border-box;
+        cursor: pointer;
+        width: 90vw;
+        font-family: 'Manrope', sans-serif;
+        font-size: 7vw;
+        background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    }
+    #bottomB{
+        background-color: #974bb8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #F25CFE;
+        opacity: 1;
+        width: 90vw;
+        overflow: hidden;
+        margin: 3vw;
+        letter-spacing: 2px;
+    }
+    #b1{
+        box-sizing: border-box;
+        padding: 2vw;
+        width: 90vw;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 2vw;
+        z-index: 3;
+        border-radius: 1vw;
+        margin: 2vw;
+    }
+    #b2{
+        width: 75vw;
+        height: 3vw;
+        background-color: white;
+        opacity: 60%;
+        position: relative;
+        left: 7.5vw;
+        z-index: 2;
+        border-radius: .7vw;
+        margin: 1vw;
+    }
+    #b3{
+        width: 50vw;
+        height: 2vw;
+        background-color: white;
+        opacity: 35%;
+        position: relative;
+        left: 20vw;
+        bottom: 1.2vw;
+        z-index: 1;
+        border-radius: .5vw;
+    }
+    #t{
+        display: none;
+    }
+    .pT{
+        color: #3D087B;
+        box-sizing: border-box;
+        display: flex;
+        height: 20vw;
+        width: 20vw;
+        background-image: url(./images/timeline.png);
+        align-items: center;
+        justify-content: center;
+        margin-left: .5vw;
+        margin-right: .5vw;
+    }
+    .pTd{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #wT{
+        font-family: 'Manrope', sans-serif;
+        color: #5F0089;
+        font-size: 10vw;
+        box-sizing: border-box;
+        display: flex;
+        height: 20vw;
+        width: 20vw;
+        margin-left: 1vw;
+        background-image: url(./images/AM_svg.png);
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    #grab{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: large;
+        height: 10vw;
+        box-sizing: border-box;
+        width: 90vw;
+        background-color: white;
+        margin: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        border-radius: 1vw;
+        margin-bottom: 4vw;
+        color: #8E53F0;
+    }
+    #img{
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    #imgM{  
+        width: 90vw;
+        margin: 2vw;
+    }
+    .selText{
+        font-family: 'Manrope', sans-serif;
+        color: #3D087BDE;
+    }
+    option {
+        color: rgb(176, 174, 174);
+    }
+    select {
+        color: rgb(105, 103, 103);
+    }
+    .bigT{
+        font-size: 10vw;
+        
+    }
+}
