@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Inter&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./images/clock_logo.png" alt="">
+            <div class="alarm center">
+                <div class="alarm-box">
+                    <div class="set-time">
+                        <img src="./images/wake_up.svg" alt="" class="icon">
+                        <p class="alarm-text">Set wake up time</p>
+                        <form>
+                          <select name="time"  id="wake-time">
+                            <option value="">Select Time</option>
+                          </select>
+                          </form>
+                    </div>
+                    <div class="line"></div>
+                    <div class="set-time">
+                        <img src="./images/lunch_time.svg" alt="" class="icon"> 
+                        <p class="alarm-text">Set lunch time</p>
+                        <form>
+                          <select name="time" id="lunch-time">
+                            <option value="">Select Time</option>
+                          </select>
+                          </form>
+                    </div>
+                    <div class="line"></div>
+                    <div class="set-time">
+                        <img src="./images/nap_time.svg" alt="" class="icon">
+                        <p class="alarm-text">Set nap time</p>
+                        <form>
+                          <select name="time" id="nap-time">
+                            <option value="">Select Time</option>
+                          </select>
+                          </form>
+                    </div>
+                    <div class="line"></div>
+                    <div class="set-time">
+                        <img src="./images/night1.png" alt="" class="icon">
+                        <p class="alarm-text">Set night time</p>
+                        <form>
+                          <select name="time"  class="select" id="night-time">
+                            <option value="">Select Time</option>
+                          </select>
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <div class="msg-box center">
+                <p class="msg" id="msg">GOOD MORNING!! WAKE UP !!</p>
+            </div>
+            <div class="flex">
+              <button class="button center" onclick="setAlarm()">Set Alarm</button>
+                
+                <div class="timing-box">
+                    <p class="text-box1">Wake Up Time : <span id="wake">Set Time</span> </p>
+                    <p class="text-box1">Lunch Time : <span id="lunch">Set Time</span></p>
+                    <p class="text-box1">Nap Time : <span id="nap">Set Time</span></p>
+                    <p class="text-box1">Night Time : <span id="night">Set Time</span></p>  
+                </div>
+            </div>
+            
+            
+-        </div>
+        <div class="right">
+            <div class="box timer center"> 
+                <p class="time">Time</p>
+                <div class="timer-box1 center">
+                  <span id="HH"></span>  <p class="para">hours</p> 
+                </div>
+                <p class="c">:</p>
+                <div class="timer-box1 center">
+                  <span id="MM"></span>  <p class="para">mins</p>
+                </div>
+                <p class="c">:</p>
+                <div class="timer-box1 center">
+                  <span id="SS"></span> <p class="para">secs</p>
+                </div>
+                <div class="timer-box2 center" id="format"></div>
+            </div>
+            <div class="box box1"></div>
+                <div class="box box2"></div>
+            <div class="box text-box center">
+               <p class="text" id="right-msg">GRAB SOME HEALTHY BREAKFAST!!!</p>
+            </div>
+            <img src="/Component.png" alt="" class="img" id="img">
+        </div>
+    </div>
+    
+</body>
+</html>
